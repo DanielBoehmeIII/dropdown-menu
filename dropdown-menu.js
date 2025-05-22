@@ -1,4 +1,4 @@
-import "./style.css";
+import "./dropdown-style.css";
 
 const menus = document.querySelectorAll(".dropdown-menu");
 
