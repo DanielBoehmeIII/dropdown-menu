@@ -4,8 +4,8 @@ const menus = document.querySelectorAll(".dropdown-menu");
 
 // Show dropdown on hover
 menus.forEach((menu) => {
-  const menuTitle = menu.querySelector(".title");
-  const options = menu.querySelector(".options");
+  const menuTitle = menu.querySelector(".dropdown-title");
+  const options = menu.querySelector(".dropdown-options");
   options.classList.add("hidden");
   menu.addEventListener("mouseenter", () => {
     menu.style.animation = "extend 0.1s ease-in-out 1";
