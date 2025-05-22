@@ -1,27 +1,3 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  user-select: none;
-}
-
-:root {
-  /* --bg-color: #113344; */
-  --bg-color: #666666;
-  --input-header-color: rgba(255, 255, 255, 0.8);
-}
-
-body {
-  width: 100vw;
-  height: 100vh;
-  background-color: var(--bg-color);
-  background-image: url("https://res.cloudinary.com/icelandtours/g_auto,f_auto,c_fill,w_3840,q_auto:good/skogafoss_waterfall_jeremy_goldberg_unsplash_ee8f1905c2.jpg");
-  background-size: cover;
-  background-position: center;
-  display: block;
-  overflow: hidden;
-}
-
 .dropdown-menu {
   display: flex;
   flex-direction: column;
@@ -34,16 +10,12 @@ body {
   box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.3);
 }
 
-.hidden {
-  display: none;
-}
-
 .drop-menu {
   display: flex;
   height: 18rem;
 }
 
-.title {
+.drop-title {
   display: flex;
   width: 10rem;
   height: 3rem;
@@ -51,7 +23,7 @@ body {
   align-items: center;
 }
 
-.title-toggled {
+.drop-title-toggled {
   align-self: flex-start;
 }
 
@@ -110,4 +82,8 @@ body {
   100% {
     opacity: 0%;
   }
+}
+
+.hidden {
+  display: none;
 }

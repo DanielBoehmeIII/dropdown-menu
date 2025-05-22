@@ -6,6 +6,7 @@ const menus = document.querySelectorAll(".dropdown-menu");
 menus.forEach((menu) => {
   const menuTitle = menu.querySelector(".title");
   const options = menu.querySelector(".options");
+  options.classList.add("hidden");
   menu.addEventListener("mouseenter", () => {
     menu.style.animation = "extend 0.1s ease-in-out 1";
     menu.addEventListener("animationend", handleExtendEnd, { once: true });
@@ -15,7 +16,7 @@ menus.forEach((menu) => {
     options.classList.remove("hidden");
     options.classList.add("dropped");
     menu.classList.add("drop-menu");
-    menuTitle.classList.add("title-toggled");
+    menuTitle.classList.add("drop-title-toggled");
 
     options.style.animation = "fade-in 0.3s ease-in-out 1";
   }
@@ -29,7 +30,7 @@ menus.forEach((menu) => {
     options.classList.add("hidden");
     options.classList.remove("dropped");
     menu.classList.remove("drop-menu");
-    menuTitle.classList.remove("title-toggled");
+    menuTitle.classList.remove("drop-title-toggled");
   }
   // Hide dropdown on mouse leave
   menu.addEventListener("mouseleave", () => {

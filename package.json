@@ -24,7 +24,7 @@
   "license": "ISC",
   "author": "Daniel Boehme III",
   "type": "commonjs",
-  "main": "main.js",
+  "main": "dropdown-menu.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   }
