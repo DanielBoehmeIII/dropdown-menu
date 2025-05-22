@@ -1,0 +1,31 @@
+{
+  "name": "dropdown-menu",
+  "version": "1.0.0",
+  "description": "A dropdown menu",
+  "keywords": [
+    "dropdown",
+    "menu",
+    "javascript",
+    "ui",
+    "component",
+    "frontend",
+    "toggle",
+    "html",
+    "css"
+  ],
+  "homepage": "https://github.com/DanielBoehmeIII/dropdown-menu#readme",
+  "bugs": {
+    "url": "https://github.com/DanielBoehmeIII/dropdown-menu/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielBoehmeIII/dropdown-menu.git"
+  },
+  "license": "ISC",
+  "author": "Daniel Boehme III",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
